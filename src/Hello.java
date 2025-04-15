@@ -1,12 +1,17 @@
 public class Hello {
     public static void main(String[] args) {
-        byte b = 127;
-        int a = b;
+        boolean verdadeiro = true;
+        boolean falso = false;
 
-        float f = 5.6f;
-        int t = (int) f;
-
-        System.out.println(a);
-        System.out.println(t);
+        if (verdadeiro && falso) {
+            System.out.println("verdadeiro");
+        } else {
+            System.out.println("falso");
+        }
+        if (verdadeiro || falso) {
+            System.out.println("verdadeiro");
+        } else {
+            System.out.println("falso");
+        }
     }
 }
