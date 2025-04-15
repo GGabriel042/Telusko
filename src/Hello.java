@@ -8,10 +8,5 @@ public class Hello {
         } else {
             System.out.println("falso");
         }
-        if (verdadeiro || falso) {
-            System.out.println("verdadeiro");
-        } else {
-            System.out.println("falso");
-        }
     }
 }
