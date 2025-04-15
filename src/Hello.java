@@ -1,11 +1,12 @@
 public class Hello {
     public static void main(String[] args) {
-        float num1 = 30;
-        float num2 = 7;
-        System.out.println(num1 + num2);
-        System.out.println(num1 - num2);
-        System.out.println(num1 / num2);
-        System.out.println(num1 * num2);
-        System.out.println(num1 % num2);
+        byte b = 127;
+        int a = b;
+
+        float f = 5.6f;
+        int t = (int) f;
+
+        System.out.println(a);
+        System.out.println(t);
     }
 }
