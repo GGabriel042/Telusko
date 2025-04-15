@@ -7,7 +7,11 @@ public class Hello {
 
         boolean result = a > b && c < d;
         boolean result2 = a > b && c > d;
+        boolean result3 = a > b || c < d;
+        boolean result4 = a > b || c > d;
         System.out.println(result);
         System.out.println(result2);
+        System.out.println(result3);
+        System.out.println(result4);
     }
 }
