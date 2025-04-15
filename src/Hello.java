@@ -1,17 +1,11 @@
 public class Hello {
     public static void main(String[] args) {
-        int a = 7;
-        int b = 5;
-        int c = 5;
-        int d = 9;
+        int a = 8;
 
-        boolean result = a > b && c < d;
-        boolean result2 = a > b && c > d;
-        boolean result3 = a > b || c < d;
-        boolean result4 = a > b || c > d;
-        System.out.println(result);
-        System.out.println(result2);
-        System.out.println(result3);
-        System.out.println(result4);
+        if (a > 10) {
+            System.out.println("Hello");
+        } else {
+            System.out.println("Bye");
+        }
     }
 }
