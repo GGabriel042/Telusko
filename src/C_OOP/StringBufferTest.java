@@ -1,4 +1,4 @@
-package OOP;
+package C_OOP;
 
 public class StringBufferTest {
     public static void main(String[] args) {

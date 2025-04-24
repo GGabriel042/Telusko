@@ -1,4 +1,4 @@
-package OOP;
+package C_OOP;
 
 class Student {
     int rollno;

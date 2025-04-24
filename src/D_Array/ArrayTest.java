@@ -1,4 +1,4 @@
-package Array;
+package D_Array;
 
 public class ArrayTest {
     public static void main(String[] args) {

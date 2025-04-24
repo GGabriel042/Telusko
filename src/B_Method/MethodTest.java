@@ -1,4 +1,4 @@
-package Method;
+package B_Method;
 
 class Computer {
     public void playMusic() {

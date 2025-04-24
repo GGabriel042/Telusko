@@ -1,4 +1,4 @@
-package Array;
+package D_Array;
 
 public class TwoDimensionalArrayTest {
     public static void main(String[] args) {
