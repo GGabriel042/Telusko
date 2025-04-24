@@ -10,17 +10,17 @@ class A{
 }
 class B extends A{
     public B(){
-        super(5);
+        super();
         System.out.println("In B");
     }
     public B(int n){
-        super(n);
+        this();
         System.out.println("in B int");
     }
 }
 
 public class Super {
     public static void main(String[] args) {
-        B obj = new B();
+        B obj = new B(5);
     }
 }
