@@ -1,4 +1,4 @@
-package H_OOP;
+package H_OOP.Inheritance;
 
 public class AdvancedCalc extends Calc{
     public int multi(int n1, int n2) {

@@ -1,0 +1,7 @@
+package H_OOP.Inheritance;
+
+public class VeryAdvCalc  extends AdvancedCalc{
+    public double power(int n1, int n2) {
+        return Math.pow(n1, n2);
+    }
+}
