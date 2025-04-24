@@ -19,6 +19,10 @@ class Mobile02 {
     public void show() {
         System.out.println(brand + " " + price + " " + name);
     }
+
+    public static void show1(){
+        System.out.println("In static method");
+    }
 }
 
 public class TipoDeRetornoTest02 {
@@ -30,6 +34,7 @@ public class TipoDeRetornoTest02 {
 
         Mobile02 obj2 = new Mobile02();
 
+        Mobile02.show1();
 
 //        Class.forName("Mobile02");
     }
