@@ -1,4 +1,4 @@
-package OOP;
+package Method;
 
 class Computer {
     public void playMusic() {
