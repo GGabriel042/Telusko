@@ -1,4 +1,4 @@
-package C_OOP;
+package C_Objects;
 
 class Calculator {
     public int add(int num1, int num2) {
@@ -6,7 +6,7 @@ class Calculator {
     }
 }
 
-public class OOPTest {
+public class ObjectTest {
     public static void main(String[] args) {
 
         Calculator calc = new Calculator();
