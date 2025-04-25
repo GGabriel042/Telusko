@@ -1,4 +1,4 @@
-package I_WrapperClass.Test;
+package I_WrapperClass;
 
 public class WrapperClassTest01 {
     public static void main(String[] args) {

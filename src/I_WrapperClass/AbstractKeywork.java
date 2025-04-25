@@ -1,4 +1,4 @@
-package I_WrapperClass.Test;
+package I_WrapperClass;
 
 abstract class Car {
 
