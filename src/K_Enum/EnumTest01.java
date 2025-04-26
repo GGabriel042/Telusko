@@ -19,6 +19,8 @@ public class EnumTest01 {
 
         Status s = Status.Failed;
 
+        System.out.println(s.getClass().getSuperclass());
+
 
         switch (s){
             case Running -> System.out.println("All good");
