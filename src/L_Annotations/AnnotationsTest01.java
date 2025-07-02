@@ -7,9 +7,8 @@ class A {
 }
 
 class B extends A {
-
     @Override
-    public void showTheClassName() {
+    public void showTheClass() {
         System.out.println("in show B");
     }
 }
