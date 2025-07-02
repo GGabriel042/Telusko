@@ -2,13 +2,13 @@ package M_TypesOfInterface;
 
 @FunctionalInterface
 interface A {
-    void show(int i);
-//    void run();
+    int add(int i, int j);
 }
 
 public class TypesOfInterfaceTest01 {
     public static void main(String[] args) {
-        A obj = i -> System.out.println("in show " + i);
-        obj.show(5);
+        A obj = (i, j) -> i + j;
+        int result = obj.add(5, 2);
+        System.out.println(result);
     }
 }
